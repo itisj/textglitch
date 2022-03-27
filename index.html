@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation Gujie Dai A1</title>
+    <style>
+        html {
+            background-color: darkblue;
+        }
+        p {
+            color: azure;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin-left: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        from distutils.command.install_headers import install_headers<br>
+import cv2<br>
+from pytesseract import pytesseract<br><br>
+
+pytesseract.tesseract_cmd = "E:\\NNN\\Tesseract\\tesseract.exe"<br><br>
+
+# these experiments below require python, opencv, and tesseract installed<br>
+# if you already are, you might already know how run this python file<br>
+# to save time I will do it for you<br><br>
+
+########################<br>
+##### experiment 1 ########<br>
+########################<br><br>
+
+# take an image file that contains text, put it in the same folder as this python script<br>
+# (or you need to specific the file, e.g. C:\\User\\Desktop\\img.png)<br>
+img = cv2.imread("bg.png")<br><br>
+
+words_in_image = pytesseract.image_to_string(img)<br><br>
+
+print(words_in_image)<br>
+# run python file with this <br>
+###################################################################################<br>
+### & C:/Users/Bone/AppData/Local/Programs/Python/Python310/python.exe e:/NNN/imgtext/extract.py ###<br>
+###################################################################################<br>
+# replace the camus.png in line, copy the result to an text editor<br>
+# export the text you had to an image file, repeat the steps above several times<br>
+# let's see how the new one differ from the your original text in the image you pick<br><br>
+
+
+####################################################################################<br>
+##### to save time, let's just drag and drop the images to miro board, and let me do the process for you #####<br>
+####################################################################################<br><br>
+
+
+########################<br>
+##### experiment 2 ########<br>
+########################<br><br>
+
+# take any image you like, the image does not have to have any text<br>
+# do the process again <br>
+# let's share the filal result here<br>
+# it could be an error says unsupported image object, that's ok, failure can be the result<br>
+# now, you have your glitched text<br><br>
+
+
+########################<br>
+##### experiment 3 ########<br>
+########################<br><br>
+
+#######################   background 1: bullet curtain   #######################<br>
+# Danmu (Chinese: 弹幕, literally: "bullet curtain", figuratively: "barrage") is <br>
+# a form of video commentary used on internet video consisting of scrolling user/viewer<br> 
+# messages posted on top of the video in real time. It was first used by Niconico and <br>
+# later adopted by AcFun and Bilibili in the 2010s where it reached a very large viewing audience.<br>
+################################################################################<br>
+#################   background 2: chinese character writing   ##################<br>
+# Chinese characters have evolved over several thousands of years to include many <br>
+# different styles, or scripts. The main forms are: Oracle Bone Inscriptions (Jia Gu Wen 甲骨文), <br>
+# Bronze Inscriptions, (Jin Wen 金文), Small Seal Characters (Xiao Zhuan 小篆), <br>
+# Official Script (Li Shu 隸書), Regular Script (Kai Shu 楷書), <br>
+# Cursive Writing or Grass Stroke Characters (Cao Shu 草書), and Freehand Cursive (Xing Shu 行書).<br>
+################################################################################<br>
+################################################################################<br>
+# what we will do next is in some way a reversed process of experiment 1<br>
+# but using the web space to generate meaning, or not?<br>
+# let's grab the results we had in last experiment, and open up this artwork<br>
+# https://itisj.github.io/drawYourself/<br>
+# on the bottom tool bar, click chat button, and put your result in<br>
+# now, your glitched text combined with yourself.<br>
+    </p>
+    <br>
+    <p><a style="color: azure;" href="./A1.pdf">A1_Dai, Gujie_Writing</a></p>
+    <br>
+    <br>
+    <br><br>
+    <br><br>
+</body>
+</html>
